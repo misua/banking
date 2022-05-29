@@ -11,9 +11,9 @@ func (s CustomerRepositoryStub) FindAll() ([]Customer, error) {
 
 func NewCustomerRepositoryStub() CustomerRepositoryStub {
 	customers := []Customer{
-		{"1001", "Charlespogz", "Davao City", "8000", "Nov 20 1970", "1"},
+		{"1001", "Charlespogz", "Davao City", "8000", "Nov 1 2022", "1"},
 		{"1002", "Sabsab", "Davao City", "9000", "may 21 2016", "1"},
-		{"1002", "chaz", "Davao City", "7000", "Nov 20 1970", "1"},
+		{"1002", "chaz", "Davao City", "7000", "Nov 39 2050", "1"},
 	}
 
 	return CustomerRepositoryStub{customers: customers}
